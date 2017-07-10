@@ -1,0 +1,19 @@
+{
+  "name": "rboxer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": "git://github.com/herryhou/rboxer.git",
+  "scripts": {
+    "build": "./node_modules/rollup/bin/rollup ./src/index.js --format cjs --output ./dist/rboxer.js",
+    "start": "node ./dist/rboxer.js",
+    "test": "node ./test/test.js"
+  },
+  "author": "HerryHou <HerryHou@gmail.com> (http://maxwin.com.tw)",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.1.0",
+    "rollup": "^0.43.0",
+    "tap": "^10.7.0"
+  }
+}
