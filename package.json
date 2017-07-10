@@ -2,12 +2,12 @@
   "name": "rboxer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/rboxer.js",
   "repository": "git://github.com/herryhou/rboxer.git",
   "scripts": {
     "build": "./node_modules/rollup/bin/rollup ./src/index.js --format cjs --output ./dist/rboxer.js",
     "start": "node ./dist/rboxer.js",
-    "test": "node ./test/test.js"
+    "test": "tap test/*.js"
   },
   "author": "HerryHou <HerryHou@gmail.com> (http://maxwin.com.tw)",
   "license": "ISC",
