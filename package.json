@@ -1,6 +1,6 @@
 {
   "name": "rboxer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/rboxer.js",
   "repository": "git://github.com/herryhou/rboxer.git",
