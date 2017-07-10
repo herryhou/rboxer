@@ -11,7 +11,8 @@
   },
   "author": "HerryHou <HerryHou@gmail.com> (http://maxwin.com.tw)",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "leaflet": "^1.1.0",
     "rollup": "^0.43.0",
     "tap": "^10.7.0"
